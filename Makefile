@@ -1,6 +1,6 @@
 all: filter
 
-filter: filter.c filter.h
+filter: filter.h filter.c
 	gcc -o filter filter.c main.c -lpthread -Wall -lm
 
 .PHONY: clean
