@@ -3,7 +3,7 @@ Ciceasa Sorin-Gabriel
 
 		Tema 1 APD
 
-  Ex1: SSAA 
+  SSAA 
   	- programul are ca scop randarea unei imaginii la o rezolutie mai mare
   	pentru a a putea fi micsorata folosind o aproximare. Un pixel din imaginea
   	nou obinuta a fost format dintr-un patrat de pixeli din imaginea originala
@@ -30,21 +30,3 @@ Ciceasa Sorin-Gabriel
   		 Input			 3/1      3/2      3/3      3/4
   		-lenna_bw   : 0.001818 0.000939 0.000757 0.000616
   		-lenna_color: 0.005058 0.002600 0.001868 0.001526
-
-
-  Ex2: Micro Renderer
-  	- aplicatia doreste realizare unui render care traseaza intr-un spatiu de 100cm^2
-  	o dreapta la diferite rezolutii. Punctele de pe dreapta sunt la o distanta
-  	mai mica 3 cm fata de dreapta descrisa de ecuatia -x+2y=0. Originea spatiului se
-  	afla in coltul din dreapta jos al imaginii. 
-  	- pentru a calcula distanta de la pixel la dreapta am folosit formula:
-  		|-(i+0.5)*real_poz+(j+0.5)*real_poz|/(sqrt(5))<=3
-  	unde real_poz=100/rezolutie. Am transformat coordonatele centrului fiecarui pixel
-  	din matricea de rezolutie^2 pixeli in matricea spatiului de 100x100cm in care se
-  	face comparatia distantei de la pixel la dreapta. 
-  	- pentru scalabilitate am paralelizat coordonata x
-  	-timpi obinuti pe masinile din ibm_nehalem:
-  					               Num_threads  				
-  		 Rezolutie			 1        2         3       4
-  		-1000   		 0.032416 0.017187 0.010875 0.008032
-
