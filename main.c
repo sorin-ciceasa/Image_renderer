@@ -33,5 +33,6 @@ int main(int argc, 	char * argv[]) {
 	printf("%lf\n", elapsed);
 	writeData(argv[2], &output);
 
+
 	return 0;
 }

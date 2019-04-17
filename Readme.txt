@@ -1,5 +1,7 @@
-  SSAA 
-  	- programul are ca scop randarea unei imaginii la o rezolutie mai mare
+		  SSAA 
+  
+
+	- programul are ca scop randarea unei imaginii la o rezolutie mai mare
   	pentru a a putea fi micsorata folosind o aproximare. Un pixel din imaginea
   	nou obinuta a fost format dintr-un patrat de pixeli din imaginea originala
   	avand dimensiunea de resize_factor^2. 
@@ -21,7 +23,10 @@
   	si output pentru a putea fi folositi in interiorul functiei de thread.
   	- la final se scrie in fisierul de out headerul in format PPM.
   	- timpi pentru scalabilitate (testat pe masinile din coada ibm_nehalem):
-					           Resize/Num_threads  				
+	
+
+
+        Resize/Num_threads  				
   		 Input			 3/1      3/2      3/3      3/4
   		-lenna_bw   : 0.001818 0.000939 0.000757 0.000616
   		-lenna_color: 0.005058 0.002600 0.001868 0.001526

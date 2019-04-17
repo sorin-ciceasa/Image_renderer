@@ -1,6 +1,7 @@
 #ifndef FILTER_H
 #define FILTER_H
 
+
 typedef struct{
 	unsigned char value;
 }pixel;

@@ -5,6 +5,7 @@
 #include <math.h>
 #include <string.h>
 
+
 int num_threads;
 int resize_factor;
 int GaussKernell[3][3]={{1,2,1},{2,4,2},{1,2,1}};
