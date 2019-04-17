@@ -1,8 +1,3 @@
-Ciceasa Sorin-Gabriel
-336CA
-
-		Tema 1 APD
-
   SSAA 
   	- programul are ca scop randarea unei imaginii la o rezolutie mai mare
   	pentru a a putea fi micsorata folosind o aproximare. Un pixel din imaginea
