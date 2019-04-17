@@ -25,8 +25,9 @@
   	- timpi pentru scalabilitate (testat pe masinile din coada ibm_nehalem):
 	
 
+	Timpi obtinuti la resize:
 
-        Resize/Num_threads  				
-  		 Input			 3/1      3/2      3/3      3/4
-  		-lenna_bw   : 0.001818 0.000939 0.000757 0.000616
+        		           Resize/Num_threads  				
+  			      3/1      3/2      3/3      3/4
+  Img_input:	-lenna_bw   : 0.001818 0.000939 0.000757 0.000616
   		-lenna_color: 0.005058 0.002600 0.001868 0.001526
